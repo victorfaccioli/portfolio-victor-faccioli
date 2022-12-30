@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Victor Faccioli</title>
+	<link rel="stylesheet" href="./assets/style/style.css">
+
+</head>
+<body>
+	<!-- Tag semantica header para identificar onde fica o cabeçalho. -->
+	<header class="container-menu">
+		<div class="menu-bar">
+			<!-- Tag a com atribbuto href e colocando o ID conseguimos fazer
+				 a pagina ir para o local onde esta o ID -->
+			<div class="botoes">
+				<a href="#section1">Quem sou</a>
+				<a href="#section2">Hobbies/Interesses</a>
+				<a href="#footer">Contato</a>
+			</div>
+		</div>
+	</header>
+	<!-- Tag semantica main para identificar onde fica meu conteudo principal. -->
+	<main>
+		<!-- Tag semantica section para definir partes do meu conteudo para melhor visualização do index -->
+		<section class="container-profile" id="section1">	
+			<div class="profile-box">
+				<img class="img-profile" src="./assets/img/eu.jpg" alt="Imagem Perfil">
+				<div class="name">
+					<h1>Victor Faccioli</h1>
+					<p>Developer in learning</p>
+				</div>
+			</div>
+			<div class="profile-biography">
+				<div class="content-biography">
+						<h2 class="title-biography">Biografia</h2>
+		
+						<p>
+							Olá, me chamo <strong>Victor Bacelar Alves Faccioli</strong>, tenho 25 anos, nascido em Ribeirão Preto interior de São Paulo, atualmente trabalho na RD há mais de 5 anos, passei por diversos cargos e atualmente participo de um programa de desenvolvimento para futuros programadores, <strong>Quero Ser DEV</strong>.<br>
+							Estou no terceiro semestre no curso de Análise desenvolvimento de softwares pela instituição Estácio. <br>
+							Não sabia exatamente qual carreira queria seguir após um amigo Dev. Fullstack me mostrar um pouco o que o mesmo fazia me apaixonei pela área e decidir seguir os mesmos passos só de imaginar de que não existe limite para o que podemos fazer com aprogramação começo a ficar empolgado e cada vez com mais vontade de aprender. <br>
+							Atualmente estudo pelo de programa de boot camp da <strong><a href="https://www.resilia.com.br/">RESILIA</a></strong> com previsão de término para Março de 2023, e também estudo pela plataforma de ensino <strong>Rocketseat</strong>. 
+						</p>
+				</div>
+			</div>
+			
+		</section>
+		<section class="container-work">
+			<div class="social-networks">
+				<a class="social-item" href="https://raiadrogasil.workplace.com/profile.php?id=100049372543400">
+					<img src="./assets/img/briefcase.svg" alt="Work">
+					RaiaDrogasil
+				</a>
+				
+				<a class="social-item" href="victorfaccioli@hotmail.com">
+					<img src="./assets/img/mail.svg" alt="Mail">
+					vicbacfaccioli@rd.com.br
+				</a>
+
+				<a class="social-item" href="https://www.bing.com/maps?q=s%C3%A3o+paulo+capital&FORM=HDRSC6&cp=-23.550436%7E-46.633937&lvl=9.9">
+					<img src="./assets/img/map-pin.svg" alt="Location">
+					Brasil / São Paulo / São Paulo
+				</a>
+
+				<a class="social-item" href="https://github.com/victorfaccioli">
+					<img src="./assets/img/github.svg" alt="GitHub">
+					victorfaccioli
+				</a>
+				
+				<a class="social-item" href="https://www.linkedin.com/in/victorfaccioli/">
+					<img src="./assets/img/linkedin.svg" alt="Linkedin">
+					Victor Faccioli
+				</a>
+			</div>
+
+			<div class="work">	
+				<h2>
+					<strong>História RD</strong>
+				</h2>			
+				<div class="list-work">
+					<ul>
+						<li>
+							<h3 class="title-work">Atendente I</h3>
+							<p class="p-list-work" >Entrei na RD em 19/07/2017 como atendente por 11 meses</p>
+						</li>
+						<li>
+							<h3 class="title-work">Atendente II</h3>
+							<p class="p-list-work" >Começei a nova jornada em 16/08/2018 e fiquei por 2 anos</p>
+						</li>
+						<li>
+							<h3 class="title-work">Supervisor</h3>
+							<p class="p-list-work" >Começei mais um nova jornada em 13/06/2020 e fiquei por 2 anos e 6 meses</p>
+						</li>
+						<li>
+							<h3 class="title-work">Developer in learning</h3>
+							<p class="p-list-work" >Atualmente</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	
+		<section class="container-hobbies-interest" id="section2">
+			<div class="content-hobbies-interest">
+				<h2>Hobbies</h2>
+				<div class="hobbies-interest">
+					<p>No meu tempo livre gosto de jogar Games, assistir animes, filmes e séries. 
+						<br> Gosto de sair com meus amigos para encontros socias. 
+						<br> O que mais gosto de fazer no tempo livre é comer.
+					</p>
+				</div>
+			</div>
+			<div class="content-hobbies-interest">
+				<h2>Interesses</h2>
+				<div class="hobbies-interest">
+					<img src="./assets/img/html5.svg" alt="HTML5">
+					<img src="./assets/img/css3.svg" alt="CSS3">
+					<img src="./assets/img/javascript.svg" alt="JAVASCRIPT">
+					<img src="./assets/img/python.svg" alt="PYTHON">
+					<img src="./assets/img/c-sharp.svg" alt="C#">
+					<img src="./assets/img/postgresql.svg" alt="SQL">
+				</div>
+		</section>
+	</main>
+	<!-- Tag semantica footer para definir onde fica meu rodapé dentro dele coloquei um formulario -->
+	<footer class="container-forms" id="footer">
+			<form class="content-forms" action="">
+				<!-- Tag fieldset utilizada para agrupar elementos do formulario -->
+				<fieldset>
+					<!-- Tag legend definir o titulo do formulario localizada entre a borda do fieldset -->
+					<legend><h2><strong>Formulário Clientes</strong></h2></legend>
+					
+
+						<div class="input-forms">
+							<!-- tag input define que é um campo de entrada de dados seguido pelo atributo type
+								atributo type qual tipo de entrada texto, email, senha etc...
+								Tag label definir rótulo para o input
+							 -->
+							<input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required>
+							<label for="name" class="label-input">Nome Completo</label>
+						</div>
+
+						<div class="input-forms">
+							<input type="email" name="email" id="email-forms" placeholder="Email" class="input-user" required>
+							<label for="email" class="label-input">Email</label>
+						</div>
+
+						<div class="input-forms">
+							<input type="tel" name="tel" id="tel-forms" placeholder="Celular" class="input-user" required>
+							<label for="tel" class="label-input">Celular</label>
+						</div>
+
+						<div class="input-forms" id="gender">
+						<p>Sexo:</p>
+							<div>
+						<input type="radio" id="famale" name="gender" value="famale" required>
+						<label for="famale">Feminino</label>	
+
+						<input type="radio" id="male" name="gender" value="male" required>
+						<label for="male">Masculino</label>
+
+						<input type="radio" id="others" name="gender" value="others" required>
+						<label for="others">Outros</label>
+							</div>
+					</div>
+
+					<div class="input-forms">
+						<input type="text" name="city" id="city-forms" placeholder="Cidade" class="input-user" required>
+						<label for="city" class="label-input">Cidade</label>
+					</div>
+
+					<div class="input-forms">
+						<input type="text" name="state" id="state-forms" placeholder="Estado" class="input-user" required>
+						<label for="state" class="label-input">Estado</label>
+					</div>
+
+					<div class="input-forms">
+						<input type="text" name="address" id="address-forms" placeholder="Endereço" class="input-user" required>	
+						<label for="address" class="label-input">Endereço</label>
+					</div>
+					<!-- Tag button para definir que vai ter um botão podendo ser personalizado,
+						com atributo type submit onde para poder enviar o formulario-->
+					<button type="submit" class="submit">Enviar</button>
+
+				</fieldset>
+			</form>
+	</footer>
+
+</body>
+</html>
